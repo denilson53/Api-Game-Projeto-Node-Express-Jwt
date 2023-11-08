@@ -1,7 +1,7 @@
 # Api de Games
 Esta API é utilizada para venda de games...
 
-Npm install para instala as biblioteca.
+Npm install para install, para instalar as biblioteca.
 
 ## Endpoints
 ### GET /game
