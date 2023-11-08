@@ -4,7 +4,7 @@ Esta API é utilizada para venda de games...
 Npm install para instala as biblioteca.
 
 ## Endpoints
-### GET /games
+### GET /game
 Esse endpoint é responsável por retornar a listagem de todos os games cadastrados no banco de dados.
 #### Parametros
 Nenhum
@@ -84,7 +84,7 @@ Exemplo de resposta:
 ```
 
 ## Endpoints
-### POST /game/create
+### POST /game
 Esse endpoint é responsável por cadastrar um game no banco de dados.
 #### Parametros
 Nenhum
@@ -196,7 +196,7 @@ Exemplo:
 
 ```
 {
-"email":"RoldFear@gmail.com",
+"email":"denilsonb53719@gmail.com",
 
 "password":"12345678"
 }
