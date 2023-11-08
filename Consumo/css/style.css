@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("/Consumo/img/mario-2.jpg");
+    background-size: 100%;
+
+}
+
+#container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: rgb(3, 0, 0);
+    margin-top: 15px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+ul{
+    padding: 10px;
+    margin: 10px;
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+   color: rgb(6, 1, 1);
+   font-size: 25px;
+}
+
+#containerAdd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+button {
+  background-color: #d52225;
+  border-radius: 100px;
+  box-shadow: rgba(219, 9, 9, 0.763) 0 -25px 18px -14px inset,rgba(219, 12, 12, 0.96) 0 1px 2px,rgba(206, 15, 15, 0.935) 0 2px 4px,rgb(221, 13, 13) 0 4px 8px,rgba(229, 13, 13, 0.993) 0 8px 16px,rgb(227, 9, 9) 0 16px 32px;
+  color: rgba(6, 0, 0, 0.802);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  padding: 7px 20px;
+  margin: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+button:hover {
+  box-shadow: rgb(232, 2, 2) 0 -25px 18px -14px inset,rgba(223, 7, 7, 0.905) 0 1px 2px,rgba(238, 8, 8, 0.971) 0 2px 4px,rgba(234, 26, 11, 0.872) 0 4px 8px,rgba(187, 53, 44, 0.25) 0 8px 16px,rgba(187, 53, 44, 0.979) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}

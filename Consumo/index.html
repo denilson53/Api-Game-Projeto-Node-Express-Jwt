@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <h1>Lista de Games</h1>
+    <div id="container">
+        <input type="e-mail" name="email" id="email" placeholder="Email do usuario!"> 
+        <input type="password" name="password" id="password" placeholder="*********">
+        <button onclick="Login()">Logar</button>
+    </div>
+
+    <div id="container">
+        <ul id="list"></ul>
+
+    </div>
+    <div id="containerAdd">
+        <h2>Novo Game:</h2>
+        <input type="text" name="name" id="name" placeholder="Nome do Game!"> <br>
+        <input type="text" name="price" id="price" placeholder="Valor do Game!"> <br>
+        <input type="text" name="year" id="year" placeholder="Lançamento do Game!"> <br>
+        <button  onclick="createGame()" >Cadastrar Novo Game</button>
+    </div>
+
+    <div id="containerAdd">
+        <h2>Edição do Game:</h2>
+        <input type="text" name="idEdit" id="idEdit" placeholder=" ID " readonly> <br>
+        <input type="text" name="nameEdit" id="nameEdit" placeholder="Digite o seu Titulo !"><br>
+        <input type="number" name="yearEdit" id="yearEdit" placeholder="Digite o Ano !"><br>
+        <input type="number" name="priceEdit" id="priceEdit" placeholder="Digite o preco !"><br><br>
+        <button type="button" onclick="updateGame()">Editar</button>
+        <button type="button"><a style="text-decoration:none; color:black;" href="index.html">Atualizar</a></button>
+    </div>
+
+    
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/index.js"></script>
+
+</html>
